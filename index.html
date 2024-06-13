@@ -1,0 +1,73 @@
+
+لبرمجة موقع بسيط مربوط بمواقع أخبار جامعات المملكة العربية السعودية بلغة HTML، يمكن اتباع التالي:
+
+1. **أنشئ ملف HTML الأساسي:**
+
+```html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>أخبار جامعات السعودية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .university {
+            margin: 20px 0;
+        }
+        .university a {
+            text-decoration: none;
+            color: blue;
+        }
+        .university a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>أخبار جامعات المملكة العربية السعودية</h1>
+        <div class="university">
+            <h2>جامعة الملك سعود</h2>
+            <a href="https://news.ksu.edu.sa" target="_blank">الأخبار</a>
+        </div>
+        <div class="university">
+            <h2>جامعة الملك عبدالعزيز</h2>
+            <a href="https://news.kau.edu.sa" target="_blank">الأخبار</a>
+        </div>
+        <div class="university">
+            <h2>جامعة الملك فهد للبترول والمعادن</h2>
+            <a href="https://news.kfupm.edu.sa" target="_blank">الأخبار</a>
+        </div>
+        <div class="university">
+            <h2>جامعة الإمام عبد الرحمن بن فيصل</h2>
+            <a href="https://news.iau.edu.sa" target="_blank">الأخبار</a>
+        </div>
+        <div class="university">
+            <h2>جامعة أم القرى</h2>
+            <a href="https://news.uqu.edu.sa" target="_blank">الأخبار</a>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+2. **شرح الكود:**
+   - **الجزء العلوي (Header):** يحدد خصائص المستند مثل الترميز (UTF-8) والعنوان (أخبار جامعات السعودية). يحتوي أيضًا على بعض تنسيقات CSS الأساسية لتحسين التصميم.
+   - **الجزء الرئيسي (Body):** يحتوي على محتوى الصفحة، بما في ذلك عنوان رئيسي وعناوين فرعية وروابط لمواقع أخبار الجامعات المختلفة.
+   - **استخدام الروابط:** كل قسم يمثل جامعة معينة، ويحتوي على رابط يؤدي إلى صفحة الأخبار الخاصة بهذه الجامعة.
+
+**ملاحظات إضافية:**
+- تأكد من تحديث الروابط لتتناسب مع المواقع الفعلية.
+- يمكنك إضافة مزيد من الجامعات باتباع نفس النمط.
+- يمكن تحسين التصميم باستخدام CSS إضافي أو أطر عمل مثل Bootstrap إذا كنت ترغب في ذلك.
+
+هذا هو الهيكل الأساسي، ويمكنك تخصيص المزيد بناءً على احتياجاتك.
